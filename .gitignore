@@ -1,0 +1,10 @@
+work/
+.nextflow/
+.nextflow.log*
+.DS_Store
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa

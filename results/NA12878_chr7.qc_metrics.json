@@ -1,0 +1,30 @@
+{
+  "sample_id": "NA12878_chr7",
+  "mean_depth": 35.46868,
+  "min_depth": 4,
+  "max_depth": 70,
+  "bases_covered": 1000000,
+  "pct_bases_q30": 50.1781485871935,
+  "n_variants_total": 767,
+  "n_variants_pass": 756,
+  "pct_variants_pass": 98.56584093872229,
+  "n_snps": 637,
+  "n_indels": 140,
+  "titv_ratio": 1.6182572614107884,
+  "reads_examined": 241838,
+  "duplicate_reads": 307,
+  "pct_duplicates": 0.12694448349721715,
+  "overall_determination": "FAIL",
+  "flags": [
+    "% bases Q>=30 (50.2%) is below 90.0% threshold.",
+    "Ti/Tv ratio 1.62 is outside the expected 1.9-2.3 range for this assay type, which can indicate elevated false-positive SNP calls."
+  ],
+  "thresholds": {
+    "min_mean_depth": 20.0,
+    "min_q30_pct": 90.0,
+    "titv_min": 1.9,
+    "titv_max": 2.3,
+    "min_variant_pass_pct": 90.0,
+    "max_dup_rate_pct": 20.0
+  }
+}
